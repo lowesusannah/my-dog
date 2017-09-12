@@ -1,3 +1,10 @@
-.walrus-showing {
-  display: none;
+.light-background {
+  background-color: yellow;
+  color: green;
+}
+
+.dark-background {
+  background-color: black;
+  color: white;
+
 }

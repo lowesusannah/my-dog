@@ -1,7 +1,11 @@
 $(document).ready(function() {
-  $("p").click(function() {
-    console.log("p clicked");
-    $(".walrus-showing").slideToggle();
-    $(".walrus-hidden").toggle();
+  $("button#light").click(function() {
+   $("body").removeClass();
+   $("body").addClass("light-background");
   });
-});
+
+  $("button#dark").click(function() {
+   $ ("body").removeClass();
+   $("body").addClass("dark-background");
+  });
+  });
